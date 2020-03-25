@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("terraform.json")
+ # credentials = file("terraform.json")
   project = "hip-plexus-238517"
   region  = "us-central1"
   
